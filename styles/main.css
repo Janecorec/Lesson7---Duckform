@@ -1,0 +1,25 @@
+
+.main{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 900px;
+}
+
+.bkgrnd{
+    display: flex;
+    width: 954px;
+    height: 594px;
+    position: relative;
+}
+
+.bkgrnd-left{ 
+    width: 60%;
+    background-color: #BE0909;
+}
+
+.bkgrnd-right{ 
+    width: 60%;
+    background-color: #FFB039;
+}
+
+img{display: none;}
