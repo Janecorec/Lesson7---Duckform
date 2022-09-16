@@ -1,8 +1,53 @@
+body{
+font-family: 'Roboto', sans-serif;
+color: #FEFFFF;
+}
 
 .main{
     max-width: 1440px;
     width: 100%;
     min-height: 900px;
+}
+
+.info-form{
+}
+    label{
+        display: block;
+        padding: 1rem 0 .5rem;
+    }
+    input, textarea{
+        display: block;
+        width: 60%;
+        padding: .5rem;
+        background: none;
+        border: none;
+        border-bottom: solid 1px #9DBEBB;
+    }
+    
+.sendBtn{
+    font-weight: bold;
+    font-size: 18px;
+    width: 202px;
+    height: 48px;
+    line-height: 21px;
+    border: 0;
+    background-color: #468189;
+    color: #FFFFFF;
+    transition: .5s background ease;
+    
+    border-radius: 40px;
+    margin: 1rem 0;
+}
+
+::placeholder{
+    color: #FDFFFF;
+    opacity: 1;
+}
+
+.sendBtn:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
 }
 
 .bkgrnd{
